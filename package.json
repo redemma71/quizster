@@ -26,5 +26,19 @@
     "react-bootstrap": "^0.32.1",
     "react-burger-menu": "^2.4.2",
     "react-modal": "^3.3.2"
-  }
+  },
+  "keywords": [
+    "Quizster",
+    "CS602",
+    "BU Computer Science",
+    "Andy Sheehan",
+    "Final project",
+    "Faker"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/redemma71/quizster"
+  },
+  "author": "Chad David Cover",
+  "license": "MIT"
 }
