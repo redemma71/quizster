@@ -17,11 +17,11 @@ class About extends Component {
                         nor graded by the backend.
                     </p>
                     <p className="main-text">
-                        <span className="scrivener">Quizster</span> was coded by Chad David Cover as 
+                        <span className="scrivener">Quizster</span> was coded by Chad David Cover as
                         a the final project for <span className="title">CS 602, Server-Side
                         Web Development,</span> (BU Met College, Spring 2018). The application utilizes <a href="https://reactjs.org/" target="_blank"> React</a>
-                        and <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> on the 
-                        frontend, and <a href="https://laravel.com/" target="_blank">Laravel</a>, a framework using PHP and MySQL, on the backend. 
+                        and <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> on the
+                        frontend, and <a href="https://laravel.com/" target="_blank">Laravel</a>, a framework using PHP and MySQL, on the backend.
                     </p>
                     <p className="main-text">
                         <span className="scrivener">Quizster</span> code be found on <a href="https://github.com/redemma71/quizster"
