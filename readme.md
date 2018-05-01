@@ -19,7 +19,7 @@ Quizster is a web app that creates online quizzes populated with fake data gener
 You may want to consider installing Laravel Homestead, a Vagrant-based virtual machine that includes all of the dependencies required to develop a Laravel app. (See https://laravel.com/docs/5.6/homestead#introduction)
 
 ## Installation
-1. git clone
+1. `git clone https://github.com/redemma71/quizster.git`
 2. From inside the Quizster project folder install React dependencies:
 `npm install`
 2. From inside the Quizster project folder install Laravel dependencies:
