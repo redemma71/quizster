@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+.header,
+.scrivener,
+#footer,
+.prompt-label {
+  color: #006699;
+}
+
+.quiz-header {
+  margin-left: 30px;
+}
+
+.main-text {
+  font-size: 18px;
+}
+
+.title {
+  font-style: italic;
+}
+
+.scrivener-body {
+  margin: 25px 0 0 60px;
+  width: 70%;
+}
+
+#generate_items_form {
+  width: 70%;
+}
+
+input,
+select {
+  margin-left: 10px;
+}
+
+#search-form-input {
+  margin-bottom: 10px;
+}
+
+.search-bar span {
+  background-color: #FFF;
+}
+
+.search-bar input {
+  border-right-style: none;
+}
+
+#search-button {
+  display: none;
+}
+
+#jobs-table {
+  margin-top: 10px;
+}
+
+#jobs-table-header {
+  margin-bottom: 10px;
+}
+
+.jobs-table-header-td {
+  font-weight: bold;
+}
+
+div.show-grid.row:nth-child(odd) {
+  background: white;
+}
+
+div.show-grid.row:nth-child(even) {
+  background: #CCFFFF;
+}
+
+#footer {
+  text-align: center;
+  font-size: 14px;
+}
+
+#footer-row {
+  position: absolute;
+  width: 70%;
+  bottom: 20px;
+}
+
+.copy-left {
+  display: inline-block;
+  text-align: right;
+  margin: 0px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  -webkit-filter: FlipH;
+          filter: FlipH;
+  -ms-filter: “FlipH”;
+}
+
+.prompt-label {
+  font-weight: bold;
+}
+

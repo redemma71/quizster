@@ -1,0 +1,68 @@
+.modal-body {
+  height: 250px;
+  /* let's imagine that your login box height is 250px . This height needs to be added, otherwise .img-responsive will be like "Oh no, I need to be vertically aligned?! but from which value I need to be aligned??" */
+}
+
+.modal-child {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 35%;
+  top: 10%;
+  margin-top: -12px;
+  /* This needs to be half of the height */
+  margin-left: -12px;
+  /* This needs to be half of the width */
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #006699;
+  -webkit-animation: spin 2s linear infinite;
+  /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+.success {
+  color: #006699;
+}
+
+.error {
+  color: indianred;
+}
+
+.modal-message {
+  font-size: 60px;
+  position: absolute;
+  float: left;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+/* Safari */
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
