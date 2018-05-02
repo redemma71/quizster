@@ -15,7 +15,7 @@ class Jobs extends Component {
         this.formatTime = this.formatTime.bind(this);
         this.handleInput = this.handleInput.bind(this);
         this.getAllJobs = this.getAllJobs.bind(this);
-    
+
     }
 
     componentDidMount() {
@@ -27,13 +27,13 @@ class Jobs extends Component {
                 this.setState({ jobs });
             });
         }
-     
+
     formatTime (date) {
         let hours = date.getHours();
         // handle 0 - 9 minutes
         let minutes = date.getMinutes();
-        minutes = minutes > 10 ? minutes : "0" + minutes;
-        
+        minutes = minutes >= 10 ? minutes : "0" + minutes;
+
         return hours + ":" + minutes;
     }
 
@@ -72,7 +72,7 @@ class Jobs extends Component {
     showJobs() {
         return this.state.jobs.map( (job) => {
 
-          
+
             let date = new Date(job.updated_at);
             date.setTime( date.getTime() + date.getTimezoneOffset()*60*1000 );
             let datestamp = this.formatDate(date);
@@ -97,7 +97,7 @@ class Jobs extends Component {
             );
         })
       }
-       
+
       searchJobs(event) {
         event.preventDefault();
         let search_form = new FormData();
@@ -155,7 +155,7 @@ class Jobs extends Component {
                                         />
                                     </FormGroup>
                                     <Button type="submit" id="search-button"/>
-                                    </Form>                                
+                                    </Form>
                             </div>
                         </Col>
                     </Row>
@@ -169,10 +169,10 @@ class Jobs extends Component {
                     { this.showJobs() }
                     <Row>
                         <div id="footer" />
-                    </Row>     
+                    </Row>
                 </Grid>
             </div>
-            
+
         );
       }
 }
