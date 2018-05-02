@@ -6,7 +6,7 @@ class Header extends Component {
 
     render() {
         return (
-                <Menu pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } width={ "20%" }>
+                <Menu pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } width={ "15%" }>
                     <h3>Scrivener</h3>
                     <a id="home" className="menu-item" href="/">Home</a>
                     <a id="about" className="menu-item" href="/jobs">Jobs</a>
