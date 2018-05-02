@@ -53172,7 +53172,7 @@ var Header = function (_Component) {
         value: function render() {
             return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 __WEBPACK_IMPORTED_MODULE_2_react_burger_menu__["push"],
-                { pageWrapId: "page-wrap", outerContainerId: "outer-container", width: "20%" },
+                { pageWrapId: "page-wrap", outerContainerId: "outer-container", width: "15%" },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'h3',
                     null,
